@@ -36,3 +36,23 @@ print(myName.count)
 print(myName.uppercased())
 
 
+// Joining strings together
+
+let firstName = "Gunish"
+let lastName = "Sharma"
+var age = 26
+let fullName = firstName + " " + lastName + " is awesome!"
+//This is cumbersome for swift
+
+print(fullName)
+
+//use string interpolation with \()
+let message = "Hello, my name is \(firstName) \(lastName) and I'm \(age) years old."
+
+print(message)
+
+let number = 11
+
+let missionMessage = "Apollo " + String(number) + " has landed on the moon."
+
+print("5 x 5 is \(5*5)")
