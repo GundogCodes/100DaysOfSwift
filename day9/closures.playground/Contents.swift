@@ -42,7 +42,7 @@ func captainFirstSorted(name1:String, name2:String) -> Bool {
 
 //let captainFirstTeam = team.sorted(by: captainFirstSorted)
 //print(captainFirstTeam)
-//same as
+//or you can put the closure directly in the method 
 let captainFirstTeam = team.sorted(by: {(name1:String, name2:String) -> Bool in
     
     if name1 == "Somesh"{
@@ -53,4 +53,5 @@ let captainFirstTeam = team.sorted(by: {(name1:String, name2:String) -> Bool in
     return name1 < name2
     
 })
+
 
